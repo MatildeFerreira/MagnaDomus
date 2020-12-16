@@ -118,7 +118,7 @@ li#sobre {
 	right: 0;
 	top: 0;
 	max-height: 75%;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 #top li {
@@ -325,12 +325,13 @@ h3 {
 #respostas {
 	position: fixed;
 	top: 140px;
-	left: 400px;
+	left: 30%;
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 10px;
 	overflow: scroll;
 	height: 500px;
+	width: 0%;
 }
 
 #respostas img {
