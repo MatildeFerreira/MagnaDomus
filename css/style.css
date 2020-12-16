@@ -329,7 +329,7 @@ h3 {
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 10px;
-	overflow: scroll;
+	overflow-y:scroll;
 	height: 500px;
 	width: 60%;
 }
