@@ -56,6 +56,41 @@ function Andares() {
 	$("#andares").text(parseInt(andares) + ' Andares');
 	$("#estudantes").text(estudantes + ' Estudantes');
 	$("#metros").text(parseInt(metros) + ' Metros');
+	
+	if (metros > 300 && metros < 350){	
+	$("#eifell").fadeIn(400);
+	}else{
+	$("#eifell").fadeOut(400);	
+	}
+	
+	if (metros > 530 && metros < 580){
+	$("#Tower").fadeIn(400);
+	}else{
+	$("#Tower").fadeOut(400);	
+	}
+	
+	if (metros > 800 && metros < 850){
+	$("#higher").fadeIn(400);
+	}else{
+	$("#higher").fadeOut(400);	
+	}
+	
+	if (metros > 1990 && metros < 2040){
+	$("#mountain").fadeIn(400);
+	}else{
+	$("#mountain").fadeOut(400);	
+	}
+	
+	if (metros > 2320 && metros < 2370){
+	$("#pico").fadeIn(400);
+	}else{
+	$("#pico").fadeOut(400);	
+	}
+	if (metros > 10 && metros < 60){
+	$("#gaivota").fadeIn(400);
+	}else{
+	$("#gaivota").fadeOut(400);	
+	}
 }
 
 $('#osquartos').click(function () {
