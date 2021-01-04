@@ -6,7 +6,7 @@ body {
 	/* IE and Edge */
 	scrollbar-width: none;
 	/* Firefox */
-	background: linear-gradient(to bottom, #f2feff 0%, #95e6ff 100%);
+	background: linear-gradient(to bottom, #95e6ff 0%, #f2feff 100%);
 	height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 	position: Relative;
 	bottom: 0;
 	overflow: scroll;
-	background: linear-gradient(to bottom, #f2feff 0%, #95e6ff 100%);
+	background: linear-gradient(to bottom, #95e6ff 0%, #f2feff 100%);
 	z-index: -5;
 }
 
@@ -232,7 +232,7 @@ img.planta {
 #ap2 {
 	position: fixed;
 	width: 50%;
-	left: 25%;
+	left: 30%;
 	top: 150px;
 
 }
@@ -251,7 +251,11 @@ h3 {
 	line-height: 18px;
 	font-weight: 500;
 }
-
+em{
+	font-weight:600;
+	font-size:12px;
+	font-style:italic;
+}
 #quartoap,
 #quartoa {
 	position: fixed;
@@ -265,7 +269,7 @@ h3 {
 
 #quartoap p,
 #quartoa p {
-	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #aarrowleft,
@@ -336,4 +340,108 @@ h3 {
 
 #respostas img {
 	width: 300px;
+}
+
+#buildings{
+	position:fixed;
+	bottom:50vh;
+	z-index:10;
+
+}
+#buildings img{
+	position:relative;
+	z-index:10;
+	bottom:10px;
+}
+
+#eifell{
+display:none;;
+}
+
+#eifell img{
+width:50px;
+margin-left:35px;
+}
+#eifell p{
+width:125px;
+text-align:center;
+font-size:12px;
+position:relative;
+bottom:7px;
+}
+
+#Tower{
+display:none;
+}
+#Tower img{
+width:30px;
+margin-left:48px;
+}
+#Tower p{
+width:125px;
+text-align:center;
+font-size:12px;
+position:relative;
+bottom:7px;
+}
+
+
+#higher{
+display:none;
+}
+#higher img{
+width:30px;
+margin-left:48px;
+}
+#higher p{
+width:125px;
+text-align:center;
+font-size:12px;
+position:relative;
+bottom:7px;
+}
+
+#mountain{
+display:none;
+}
+#mountain img{
+width:60px;
+margin-left:35px;
+}
+#mountain p{
+width:125px;
+text-align:center;
+font-size:12px;
+position:relative;
+bottom:7px;
+}
+
+#pico{
+display:none;
+}
+#pico img{
+width:60px;
+margin-left:35px;
+}
+#pico p{
+width:125px;
+text-align:center;
+font-size:12px;
+position:relative;
+bottom:7px;
+}
+
+#gaivota{
+display:none;
+}
+#gaivota img{
+width:60px;
+margin-left:35px;
+}
+#gaivota p{
+width:125px;
+text-align:center;
+font-size:12px;
+position:relative;
+bottom:7px;
 }
